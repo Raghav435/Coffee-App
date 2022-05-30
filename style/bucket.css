@@ -1,0 +1,25 @@
+#bucket{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+img{
+    height: 250px;
+}
+
+#remove_coffee{
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+
+}
+
+#confirm_checkout{
+    background-color: chocolate;
+    color:green;
+}
+
